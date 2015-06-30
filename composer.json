@@ -13,20 +13,9 @@
         "yiisoft/yii2": "~2.0",
         "linslin/yii2-curl": "*"
     },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
-    },
     "autoload": {
         "psr-4": {
             "egor-henek\\mixcloud\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },
-        "asset-installer-paths": {
-            "bower-asset-library": "vendor/bower"
         }
     }
 }
