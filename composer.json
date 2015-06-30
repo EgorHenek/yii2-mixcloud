@@ -1,5 +1,5 @@
 {
-    "name": "EgorHenek/yii2-mixcloud",
+    "name": "egor-henek/yii2-mixcloud",
     "type": "yii2-extension",
     "description": "Enhanced to work with api mixcloud",
     "keywords": ["api", "mixcloud"],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EgorHenek\\mixcloud": "src"
+            "egor-henek\\mixcloud": "src"
         }
     },
     "extra": {
