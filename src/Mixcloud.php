@@ -8,6 +8,7 @@ namespace EgorHenek\mixcloud;
 
 use Yii;
 use yii\base\InvalidParamException;
+use yii\base\Exception;
 use yii\base\Component;
 
 /**
@@ -62,12 +63,13 @@ class Mixcloud extends Component
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, 'https://api.mixcloud.com/upload/?access_token='.$this->clientToken);
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $request);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 300);
-        curl_exec($ch);
+        $result = curl_exec($ch);
         curl_close($ch);
-        print_r($ch);
+        $result = json_decode($result, true);
+        return $result;
     }
     
 }
