@@ -32,8 +32,11 @@ In the component configuration file to add
 ],
 ```
 For the client token:
+
 Create an application at the following address: https://www.mixcloud.com/developers/create/
+
 So you get a Client ID and Client Secret
+
 Go https://www.runscope.com/oauth_tool?utm_source=partner&utm_medium=link&utm_campaign=hurlit to create the necessary token
 
 How to use
