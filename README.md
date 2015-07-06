@@ -12,12 +12,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-composer require EgorHenek/yii2-mixcloud:~1.0
+composer require egor-henek/yii2-mixcloud:~1.0
 ```
 or add
 
 ```json
-"EgorHenek/yii2-mixcloud" : "~1.0"
+"egor-henek/yii2-mixcloud" : "~1.0"
 ```
 
 to the require section of your application's `composer.json` file.
