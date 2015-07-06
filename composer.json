@@ -1,0 +1,32 @@
+{
+    "name": "egor-henek/yii2-mixcloud",
+    "type": "yii2-extension",
+    "description": "Enhanced to work with api mixcloud",
+    "keywords": ["api", "mixcloud"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor Gluhih"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "linslin/yii2-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EgorHenek\\mixcloud\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
