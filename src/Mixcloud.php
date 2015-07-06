@@ -67,7 +67,7 @@ class Mixcloud extends Component
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 300);
         curl_exec($ch);
         curl_close($ch);
-        return $ch;
+        print_r($ch);
     }
     
 }
