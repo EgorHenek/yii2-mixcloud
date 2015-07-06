@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EgorHenek\\mixcloud\\": "src"
+            "EgorHenek\\mixcloud\\": "src/"
         }
     },
     "extra": {
